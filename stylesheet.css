@@ -1,0 +1,52 @@
+
+body{
+  font-family:serif;
+}
+
+.top-wrapper{
+  background-image:url(kuma.png);
+  background-size:cover;
+}
+
+.container{
+  text-align: center;
+  padding:100px 0;
+}
+
+.container h1{
+  font-size: 48px;
+  color:#fff;
+  opacity: 0.8;
+  letter-spacing: 5px;
+}
+
+.container p{
+  font-size:22px;
+  color:#fff;
+  opacity: 0.9;
+}
+
+.btn{
+  color:#fff;
+  border-radius: 4px;
+  font-size: 30px;
+  margin: 0 20px;
+  padding:10px 10px;
+  display: inline-block;
+  width:300px;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+
+.site{
+  background-color: #239b76;
+}
+
+.twitter{
+  background-color: #55acee;
+}
