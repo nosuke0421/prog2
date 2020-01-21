@@ -8,6 +8,62 @@ body{
   background-size:cover;
 }
 
+/*ヘッダー*/
+header{
+  height:70px;
+  background-color:rgba(0,0,0,0.7);
+}
+
+.header-right{
+  float:right;
+  height:70px
+}
+
+.link{
+  height:70px;
+  margin:0 0;
+}
+
+.header-right li{
+  float:left;
+  width:150px;
+  list-style: none;
+  line-height: 70px;
+}
+
+.header-right a{
+  display: block;
+  font-size:14px;
+  text-decoration: none;
+  text-align: center;
+  color:white;
+}
+
+.header-right a:hover,.icon a:hover{
+  background-color:rgba(255,255,255,0.1);
+  transition: all 1s;
+}
+
+.header-left{
+  float:left;
+  height:70px;
+}
+
+.icon{
+  height:70px;
+  margin: 0 0;
+}
+
+.icon a{
+  line-height: 70px;
+  margin:0 10px;
+  font-size: 24px;
+  color:white;
+  float:left;
+  display: block;
+  text-decoration: none;
+}
+
 .container{
   text-align: center;
   padding:100px 0;
